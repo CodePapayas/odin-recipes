@@ -1,0 +1,35 @@
+* {
+    background-color: antiquewhite;
+    font-family: 'Courier New', Courier, monospace, Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+
+h1 {
+    font-size: large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(2, 48, 54);
+}
+
+h2 {
+font-size: medium;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color: midnightblue;
+
+}
+
+img {
+    height: auto;
+    width: 300px;
+}
+
+.cool {
+    font-size: 28px;
+}
+
+.cool#cooler {
+    color: rgb(2, 48, 54)
+}
+
+em {
+    font-size: 28px;
+}
