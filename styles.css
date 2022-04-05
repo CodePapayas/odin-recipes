@@ -1,13 +1,14 @@
 * {
-    background-color: antiquewhite;
-    font-family: 'Courier New', Courier, monospace, Arial, Helvetica, sans-serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
     font-size: medium;
+    
 }
 
 h1 {
     font-size: large;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: rgb(2, 48, 54);
+    margin: 50px;
 }
 
 h2 {
@@ -15,11 +16,13 @@ font-size: medium;
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 color: midnightblue;
 
+
 }
 
 img {
     height: auto;
     width: 300px;
+    margin: 50px;
 }
 
 .cool {
@@ -32,4 +35,24 @@ img {
 
 em {
     font-size: 28px;
+}
+
+ul {
+    color: black;
+    border: 0px solid rgb(0, 0, 0);
+    padding: 15px;
+    margin: 50px;
+    
+}
+
+button {
+    color: red;
+    margin: 3px;
+}
+
+ol {
+    color: black;
+    border: 0px solid rgb(0, 0, 0);
+    padding: 15px;
+    margin: 50px;
 }
