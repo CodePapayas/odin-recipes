@@ -1,31 +1,23 @@
 * {
     background-color: thistle;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: medium;
-    
-    
+        
 }
 
-h1 {
+html {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+.titleone {
     font-size: large;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: rgb(2, 48, 54);
-    margin: 50px;
+    color: rgb(255, 0, 212);
+    
 }
 
-h2 {
-font-size: medium;
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-color: midnightblue;
-margin: 30px;
-
-}
-
-h3 {
-    font-size: medium;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, Georgia, 'Times New Roman', Times, serif, Verdana, Geneva, Tahoma, sans-serif; 
-    background-image: linear-gradient(to right, thistle, linen, white);
-}
 
 img {
     height: auto;
@@ -34,24 +26,19 @@ img {
 }
 
 .cool {
-    font-size: 28px;
+    font-size: 20px;
+    color: indigo;
 }
 
-.cool#cooler {
-    color: rgb(2, 48, 54)
-}
-
-.many {
-    font-size: 28px;
+#many {
+    font-size: 22px;
+    color: red;
 }
 
 
-
-
-button {
-    color: rgb(43, 41, 212);
-    height: auto;
-    width: auto;
+.nav-list {
+   background-color: brown;
+   margin-right: 20px;
 
 }
 
